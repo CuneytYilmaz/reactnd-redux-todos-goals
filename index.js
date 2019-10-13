@@ -33,3 +33,4 @@ const unsubscribe = store.subscribe(() => {
   console.log('The store changed.')
 })
 
+unsubscribe()
